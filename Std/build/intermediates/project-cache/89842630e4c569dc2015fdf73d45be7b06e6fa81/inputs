@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=E:\Prashant\Github_Demo\wifi\Std\app\libs\android-support-v13.jar
+FILE_HASH=46ecfc3f4e3993da05395b2bf11f3820e77d4831
+DX_VERSION=1.13
+JUMBO_MODE=false
+OPTIMIZE=true

@@ -1,0 +1,4 @@
+#Fri Oct 06 12:26:13 IST 2017
+base.0=E\:\\Prashant\\Github_Demo\\wifi\\Std\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=E\:\\Prashant\\Github_Demo\\wifi\\Std\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

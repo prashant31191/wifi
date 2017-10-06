@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" 
+                      android:color="@color/primary">
+        <item android:id="@android:id/mask">
+            <shape android:shape="oval">
+                <solid android:color="@color/primary_dark" />
+            </shape>
+        </item>
+ </ripple>
+ <!-- 
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/round_corner_filter_cover_press" />
+    <item android:state_selected="true" android:drawable="@drawable/round_corner_filter_cover_selected" />
+    <item android:drawable="@drawable/round_corner_filter_cover_nomarl" />
+</selector> -->

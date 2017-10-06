@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    build-mode="FULL"
+    format="10"
+    plugin-version="3.0.0-alpha3"
+    timestamp="1507272972407"
+    verifier="NOT_RUN" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="E:\Prashant\Github_Demo\wifi\Std\app\build\outputs\apk\debug\app-debug.apk"
+        type="SPLIT_MAIN" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1507272972407"
+        verifier="NOT_RUN" >
+        <artifact
+            location="E:\Prashant\Github_Demo\wifi\Std\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+
+</instant-run>

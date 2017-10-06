@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/btnDarkRipple">
+    <item>
+        <selector>
+            <item android:drawable="@color/primary_dark" android:state_enabled="false">
+               <nine-patch android:src="@drawable/btn_bottombar_normal" />
+            </item>
+            <item android:drawable="@color/primary" >
+                 <nine-patch
+                    android:src="@drawable/btn_bottombar_disable"
+                    android:alpha="?android:attr/disabledAlpha" />
+                
+            </item>
+        </selector>
+    </item>
+</ripple>
+<!-- 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:drawable="@drawable/btn_bottombar_normal" android:state_enabled="true" android:state_window_focused="false"/>
+	<item android:drawable="@drawable/btn_bottombar_disable" android:state_enabled="false" android:state_window_focused="false"/>
+	<item android:drawable="@drawable/btn_bottombar_press" android:state_pressed="true"/>
+	<item android:drawable="@drawable/btn_bottombar_normal" android:state_enabled="true"/>
+	<item android:drawable="@drawable/btn_bottombar_disable"/>
+
+</selector> -->

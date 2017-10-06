@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" 
+                      android:color="@color/primary">
+        <item android:id="@android:id/mask">
+            <shape android:shape="oval">
+                <solid android:color="@color/primary_dark" />
+            </shape>
+        </item>
+ </ripple>
+ 
+<!-- 
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+        android:state_window_focused="false" 
+        android:state_enabled="false" 
+        android:drawable="@drawable/btn_big_normal_disable" />
+    <item 
+        android:state_enabled="true" 
+        android:state_pressed="true" 
+        android:drawable="@drawable/btn_big_normal_press" />
+    <item 
+        android:state_enabled="false" 
+        android:drawable="@drawable/btn_big_normal_disable" />
+    <item android:drawable="@drawable/btn_big_normal_normal" />
+</selector> -->
